@@ -43,8 +43,6 @@
     }
 
     .headerNavLink:hover {
-        border-top: solid 1px #0065fc;
-        padding-top: 3.81rem;
-        color: #0065fc;
+        color: #c1121f;
     }
 }
