@@ -1,0 +1,106 @@
+@media screen and (min-width: 1025px) {
+    .tarifsTitle {
+        margin: 1rem 0;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+
+    .span {
+        margin: 2rem 4rem;
+    }
+
+    .tarifs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55vh;
+    }
+
+    .container{
+        flex: 1;
+        margin-right: 1rem;
+        text-align: center;
+    }   
+    
+    .container1 {
+        flex: 1;
+        text-align: center;
+    }
+
+    .indication {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tarifsSubtitle {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .tarifsText {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.5rem 0;
+    }
+
+    .title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .tarifsForfaits {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+      
+    .forfait {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%; /* changer cette valeur en fonction de combien d'éléments vous voulez voir à l'écran en même temps */
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+    
+    /* Ces règles sont pour masquer la barre de défilement, mais elles ne sont pas nécessaires */
+   /*.tarifsForfaits::-webkit-scrollbar {
+    display: none;
+    } 
+    
+    .tarifsForfaits {
+    scrollbar-width: none; /* pour Firefox */
+    /*}*/ 
+
+    .forfaitTitle {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .forfaitText {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.5rem 0;
+    }
+
+    .forfaitPrice {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}

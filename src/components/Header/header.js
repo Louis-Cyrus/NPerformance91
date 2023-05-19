@@ -12,21 +12,21 @@ export default function Header(){
                     </span>
                 </Link>
 
+                {/* Navigation principale */}
                 <nav className={styles.headerNav}> 
-                <ul className={styles.headerNavList}>
-                    <li className={styles.headerNavItem}>
-                        <Link href="/tarifs" className={styles.headerNavLink}>
-                            <span>Tarifs</span>
-                        </Link>
-                    </li>
-
-                    <li className={styles.headerNavItem}>
-                        <Link href="/contact" className={styles.headerNavLink}>
-                            <span>Contact</span>
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+                    <ul className={styles.headerNavList}>
+                        <li className={styles.headerNavItem}>
+                            <Link href="/forfaits" className={styles.headerNavLink}>
+                                <span>Forfaits</span>
+                            </Link>
+                        </li>
+                        <li className={styles.headerNavItem}>
+                            <Link href="/contact" className={styles.headerNavLink}>
+                                <span>Contact</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
             </header>
         </div>
     )
