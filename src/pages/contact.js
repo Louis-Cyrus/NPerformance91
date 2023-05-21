@@ -5,7 +5,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import {BsInstagram}  from "react-icons/bs";
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("xvonyel");
+    const [state, handleSubmit] = useForm("xvonyelz");
 
     if (state.succeeded) {
         return <p>Merci 🎉</p>;
