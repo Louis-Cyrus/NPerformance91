@@ -28,7 +28,7 @@ export default function Contact () {
     return(
         <>
             <Head>
-                <title>Forfaits/Contact</title>
+                <title>Forfaits</title>
             </Head>
 
             <h2 className={styles.tarifsTitle}>Fonctionnement du studio</h2>
